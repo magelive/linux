@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# kernel test modules configuration
+#
+
+menu "kernel test modules"
+
+source "module/hello/Kconfig"
+
+endmenu
+

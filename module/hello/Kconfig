@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# kernel test modules configuration
+#
+
+config MODULES_HELLO
+	bool "test module hello."
+	default y
+	help
+		This the first test module, called the hello kernel word.
